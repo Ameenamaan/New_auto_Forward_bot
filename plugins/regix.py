@@ -84,9 +84,9 @@ async def pub_(bot, message):
                 await m.edit_text(f'Error: {e}')
             else:
                 buttons = [[
-                    InlineKeyboardButton('♻️ Movie Group ♻️', url='https://t.me/HDmoviePp')
+                    InlineKeyboardButton('♻️ Main Channel ♻️', url='https://t.me/Hate_Hackers')
                     ],[
-                    InlineKeyboardButton('♻️ Files Channel ♻️', url='https://t.me/HDmovieDp')
+                    InlineKeyboardButton('♻️ Channel ♻️', url='https://t.me/Premium_Apps_2022')
                 ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
                 await m.edit_text(
